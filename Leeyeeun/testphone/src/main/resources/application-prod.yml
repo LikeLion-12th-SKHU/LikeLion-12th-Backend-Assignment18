@@ -1,0 +1,16 @@
+spring:
+    config:
+        activate:
+            on-profile: prod
+
+    datasource:
+        url: jdbc:h2:tcp://localhost/~/test
+        username: sa
+        password:
+        driver-class-name: org.h2.Driver
+
+coolsms:
+    api:
+        key: NCSXLJKAAAATWK9K
+        secret: DTX62VSOL545QNTIR87UI4GVXXZBY7UP
+        number: 01088477426
